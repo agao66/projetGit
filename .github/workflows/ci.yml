@@ -13,7 +13,7 @@ jobs:
 
 
       - name: Run test
-        run: cd app && composer install && cp .env.exemple .env && php artisan key:gen && php artisan test
+        run: cd app && composer install && cp .env.example .env && php artisan key:gen && php artisan test
 
 
 
