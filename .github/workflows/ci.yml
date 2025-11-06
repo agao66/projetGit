@@ -1,0 +1,12 @@
+name: Laravel CI
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  builds:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le code source
+        uses: action/checkout@v5
