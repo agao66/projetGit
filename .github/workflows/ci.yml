@@ -9,8 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Récupérer le code source
-        uses: actions/checkout@v2
+        uses: actions/checkout@v5
 
 
       - name: Run test
-        run: cd app && composer install && php artisan key:gen && php artisan serve
+        run: cd app && composer install && php artisan key:gen && php artisan test
