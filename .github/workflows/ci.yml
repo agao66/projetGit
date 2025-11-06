@@ -14,3 +14,24 @@ jobs:
 
       - name: Run test
         run: cd app && composer install && php artisan key:gen && php artisan test
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
